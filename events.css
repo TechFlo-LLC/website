@@ -119,6 +119,7 @@ body{
 	margin-top: 6%;
 }
 #speakteam{
+	display: flex;
 	background-image: url("images/Frame 19573.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -130,9 +131,11 @@ body{
 }
 #speakteam p{
 	font-size: 20px;
-	width: 418px;
-	margin-left: 35%;
+	/* width: 418px;
+	margin-left: 35%; */
 	line-height: 1.7cqmax;
+	margin-top: 1em;
+
 }
 #speakteam button{
 	color: #FFFFFF;
