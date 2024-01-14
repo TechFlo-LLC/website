@@ -22,7 +22,7 @@ nav ul li a{
 .nav-link:hover {
 	color:#AA558E;
 }
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
 	.logo{
 		width: 59px;
 		height: 55px;
@@ -31,4 +31,4 @@ nav ul li a{
 		color: #FFFFFF;
 		font-size: 30px;
 	}
-}
+} */
