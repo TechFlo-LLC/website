@@ -65,6 +65,52 @@ body{
 	display: none;
 }
 
+.box {
+  text-align: center;
+}
+
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+.wrapper{
+  margin: 70px auto;
+  padding: 20px;
+  width: 50%;
+  background: rgb(29, 34, 40);
+  position: relative;
+  transition: all 200ms ease-in-out;
+  color: #E9E9E9;
+}
+
+.wrapper .close{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wrapper .content{
+  max-height: 30%;
+  overflow: auto;
+}
+
+.container{
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.singleLineInput{
+  width: 45vw;
+}
 @media screen and (max-width: 425px){
 
     #about{
@@ -123,3 +169,5 @@ body{
        border-right: 1px solid #636363;
       }
     }
+
+   
