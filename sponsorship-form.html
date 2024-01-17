@@ -30,7 +30,7 @@
             <a href="sponsorship.html" class="close">&times;</a>
             <div class="content">
                 <div class="container">
-                    <form>
+                    <form id="formSubmit">
                         <div style="display: flex; justify-content: space-between;">
                             <label for="firstName">
                                 First name*
@@ -64,6 +64,30 @@
             </div>
         </div>
     </div>
+    <script>
+        let form = getElementById("formSubmit")
+        form.addEventListener("submit", (e)=> {
+            e.preventDefault()
+            let firstName = getElementById("firstName").value
+            let lastName = getElementById("lastName").value
+            let email = getElementById("email").value
+            let phoneNumber = getElementById("phoneNumber").value
+            let background = getElementById("background").value
+            formData = {
+                "firstName": firstName,
+                "lastName": lastName,
+                "email": email,
+                "phoneNumber": phoneNumber,
+                "background": background
+            }
+            alert(formData)
+        });
+        // function handleSubmit(e) {
+        //     e.preventDefault()
+            
+        // }
+        
+    </script>
 </body>
 
 </html>
