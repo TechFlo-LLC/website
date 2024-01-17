@@ -46,14 +46,15 @@ body{
 .col-sponsor{
 	margin-top: 5%;		
 }
-.logo-sponsor, .logo-sponsor1{
+/* .logo-sponsor, .logo-sponsor1{
 	border-left: 2px solid #636363;
-}
-.logo-sponsor{
+} */
+/* .logo-sponsor{
 	border-bottom: 2px solid #636363;
-}
+} */
 .logo-sponsor img{
-	margin-left: -30px;
+	/* margin-left: -30px; */
+  padding: 3rem;
 }
 .logo-sponsor1 img{
 	margin-left: -30px;
@@ -110,6 +111,12 @@ input {
 
 .singleLineInput{
   width: 45vw;
+}
+
+img {
+  width: 15rem;
+  height: auto;
+
 }
 @media screen and (max-width: 425px){
 
